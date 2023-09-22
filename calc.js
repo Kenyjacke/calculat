@@ -2,8 +2,8 @@ const resultElement = document.getElementById('result')
 const fnum = document.getElementById('fnum')
 const snum = document.getElementById('snum')
 const submitBtn = document.getElementById('math')
-const plusBtn = document.getElementById('button+')
-const minusBtn = document.getElementById('button-')
+const plusBtn = document.getElementById('buttonplus')
+const minusBtn = document.getElementById('buttonminus')
 let action = '+'
 
 

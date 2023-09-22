@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="calc.js" defer></script>
     <!-- Чтобы скрипт отработал после загрузки дерева defer сделал -->
 </head>
 <body>
-    <input type="number" id="fnum" placeholder="Введите первое число">
+    <div class="conNum">
+    <input type="number" id="fnum" class="numbone" placeholder="Введите первое число"
+    value="44">
     <br>
-    <input type="number" id="snum" placeholder="Введите второе число">
-<div>
-    <button class="button+" id="button+">+</button>
-    <button class="button-" id="button-">-</button>
+    <input type="number" id="snum" class="numsec" placeholder="Введите второе число" value="44">
 </div>
-<button class="math" id="math">Вычислить</button>
-<h4>Результат</h4>
-<p id="result"></p>
+<div class="container-buttons">
+    <button class="btnPlus" id="buttonplus">+</button>
+    <button class="btnMinus" id="buttonminus">-</button>
+</div>
+<div class="box-res"><button class="math" id="math">Вычислить</button>
+<h4 class="res-text">\/Результат\/</h4>
+<p id="result" class="resnumb">...</p>
+</div>
 </body>
 </html>
